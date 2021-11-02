@@ -1,6 +1,6 @@
 const ENV = {
   prod: {
-    API_URL: "http://localhost:3333/",
+    API_URL: "http://survey.kadence.co.id:9999/",
   },
 };
 
