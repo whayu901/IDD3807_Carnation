@@ -1,0 +1,110 @@
+@import "./sass/colors.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.regular-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: $heading;
+}
+
+.semibold-text {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.bold-text {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 30px;
+
+  &.center {
+    text-align: center;
+  }
+}
+
+.shadow {
+  box-shadow: 0 3px 6px 0 $shadow;
+}
+
+.half-card {
+  width: 48%;
+}
+
+.mini-card {
+  width: 30%;
+}
+
+.text-title-header {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  color: $heading;
+
+  &.sub-header {
+    font-size: 16px;
+    color: $orange;
+  }
+
+  &.sub-title {
+    font-size: 12px;
+  }
+}
+
+/////// css untuk appBar /////
+
+.img-profile {
+  height: 50px;
+  width: 55px;
+  border-radius: 70px;
+}
+
+.img-logo {
+  height: 50px;
+  width: 180px;
+}
+
+.line-vertical {
+  border-right: 1px solid $black01;
+  height: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.user-text {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 18px;
+  color: $black;
+  &.role {
+    text-align: right;
+    font-size: 14px;
+  }
+}
+
+
+.fm-ui-element.fm-ui.fm-noselect{
+  visibility: hidden !important;
+}
+
+.fm-ui-element.fm-ui.fm-ui-container.fm-noselect.fm-chart-legend{
+  visibility: visible !important;
+}
