@@ -37,7 +37,7 @@ const ShopOwner = () => {
   React.useEffect(() => {
     setLoading(true);
     async function setFilter() {
-      setKota(await filterKota());
+      setKota(await filterKota("IDD3718_shopowner"));
       let a: any = await totalAchievement("IDD3718_shopowner")
       setTotal(a.total)
       setLoading(false);
@@ -80,12 +80,12 @@ const ShopOwner = () => {
       ) : (
         <>
           <div className="container-chart">
-            <p className="text-title-header">RC1</p>
-            <ChartRC1ShopOwner />
+            <p className="text-title-header">Authorized Shop</p>
+            <BrandShopOwner />
           </div>
           <div className="container-chart">
-            <p className="text-title-header">Brand</p>
-            <BrandShopOwner />
+            <p className="text-title-header">Shop Category</p>
+            <ChartRC1ShopOwner />
           </div>
         </>
       )}

@@ -46,7 +46,7 @@ const ChartRC1EndUser = () => {
   const dataRC1EndUser = achievementToChartsPercentage(arrayRC1);
   return (
     <Card>
-      <p className="regular-text">RC1</p>
+      <p className="regular-text">Usership Chart</p>
       <CustomChartBank data={dataRC1EndUser} />
     </Card>
   );

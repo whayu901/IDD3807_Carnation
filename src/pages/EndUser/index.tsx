@@ -11,7 +11,7 @@ import {
   Loading,
 } from "../../component";
 import { filterKota } from "../../redux/actions/Filter";
-import { ChartRC1EndUser, ChartS22EndUser } from "../../component/Pages/EndUser";
+import { ChartRC1EndUser } from "../../component/Pages/EndUser";
 import { totalAchievement } from "../../redux/actions/achievement";
 
 
@@ -35,7 +35,7 @@ const EndUser = () => {
   React.useEffect(() => {
     setLoading(true);
     async function setFilter() {
-      setKota(await filterKota());
+      setKota(await filterKota("IDD3718_enduser"));
       let a: any = await totalAchievement("IDD3718_enduser")
       setTotal(a.total)
       setLoading(false);
@@ -77,12 +77,8 @@ const EndUser = () => {
       ) : (
         <>
           <div className="container-chart">
-            <p className="text-title-header">RC1</p>
+            <p className="text-title-header">Usership</p>
             <ChartRC1EndUser />
-          </div>
-          <div className="container-chart">
-            <p className="text-title-header">S22</p>
-            <ChartS22EndUser />
           </div>
         </>
       )}

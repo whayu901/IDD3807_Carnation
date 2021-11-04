@@ -46,7 +46,7 @@ const BrandShopOwner = () => {
   const dataBrandShopOwner = achievementToChartsPercentage(arrayBrand);
   return (
     <Card>
-      <p className="regular-text">Brand</p>
+      <p className="regular-text">Authorized Shop Chart</p>
       <CustomChartBank data={dataBrandShopOwner} />
     </Card>
   );

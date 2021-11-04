@@ -45,7 +45,7 @@ const ColumnChart = ({ data }: Props) => {
         dataLabels: {
           enabled: true,
           formatter: function(){
-            return `${this.y}%`
+            return `${this.y}`
           }
         }
       }

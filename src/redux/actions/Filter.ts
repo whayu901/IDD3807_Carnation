@@ -1,8 +1,8 @@
 import { axios } from "../../utils";
 
-export const filterKota = async () => {
+export const filterKota = async (pid: string) => {
     return new Promise(resolve => {
-        const url = "http://survey.kadence.co.id:9999/api/IDD3718_enduser/data/Kota/attribute"
+        const url = `http://survey.kadence.co.id:9999/api/${pid}/data/Kota/attribute`
         const response = axios.Get({
             url
         })

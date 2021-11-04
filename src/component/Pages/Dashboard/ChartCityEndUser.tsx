@@ -14,35 +14,35 @@ const target = [
   },
   {
     code: 2,
-    target: 100,
+    target: 70,
   },
   {
     code: 3,
-    target: 100,
+    target: 50,
   },
   {
     code: 4,
-    target: 100,
+    target: 50,
   },
   {
     code: 5,
-    target: 100,
+    target: 30,
   },
   {
     code: 6,
-    target: 100,
+    target: 30,
   },
   {
     code: 7,
-    target: 100,
+    target: 30,
   },
   {
     code: 8,
-    target: 100,
+    target: 30,
   },
   {
     code: 9,
-    target: 100,
+    target: 30,
   }
 ];
 

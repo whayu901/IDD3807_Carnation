@@ -46,7 +46,7 @@ const ChartRC1ShopOwner = () => {
   const dataRC1ShopOwner = achievementToChartsPercentage(arrayRC1);
   return (
     <Card>
-      <p className="regular-text">RC1</p>
+      <p className="regular-text">Shop Category Chart</p>
       <CustomChartBank data={dataRC1ShopOwner} />
     </Card>
   );

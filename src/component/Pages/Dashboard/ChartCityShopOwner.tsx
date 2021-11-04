@@ -9,103 +9,103 @@ import { FindObject } from "../../../utils/customFunc";
 const target = [
     {
       code: 1,
-      target: 100,
+      target: 92,
     },
     {
       code: 2,
-      target: 100,
+      target: 33,
     },
     {
       code: 3,
-      target: 100,
+      target: 8,
     },
     {
       code: 4,
-      target: 100,
+      target: 5,
     },
     {
       code: 5,
-      target: 100,
+      target: 4,
     },
     {
       code: 6,
-      target: 100,
+      target: 4,
     },
     {
       code: 7,
-      target: 100,
+      target: 3,
     },
     {
       code: 8,
-      target: 100,
+      target: 2,
     },
     {
       code: 9,
-      target: 100,
+      target: 13,
     },
     {
       code: 10,
-      target: 100,
+      target: 13,
     },
     {
       code: 11,
-      target: 100,
+      target: 12,
     },
     {
       code: 12,
-      target: 100,
+      target: 8,
     },
     {
       code: 13,
-      target: 100,
+      target: 3,
     },
     {
       code: 14,
-      target: 100,
+      target: 5,
     },
     {
       code: 15,
-      target: 100,
+      target: 3,
     },
     {
       code: 16,
-      target: 100,
+      target: 3,
     },
     {
       code: 17,
-      target: 100,
+      target: 24,
     },
     {
       code: 18,
-      target: 100,
+      target: 9,
     },
     {
       code: 19,
-      target: 100,
+      target: 5,
     },
     {
       code: 20,
-      target: 100,
+      target: 4,
     },
     {
       code: 21,
-      target: 100,
+      target: 3,
     },
     {
       code: 22,
-      target: 100,
+      target: 4,
     },
     {
       code: 23,
-      target: 100,
+      target: 4,
     },
     {
       code: 24,
-      target: 100,
+      target: 18,
     },
     {
       code: 25,
-      target: 100,
+      target: 4,
     }
   ];
 
