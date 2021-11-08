@@ -25,12 +25,14 @@ const target = [
 const ChartRC1EndUser = () => {
   const [dataRC1, setaDataRC1] = useState<any>([]);
   let arrayRC1: any = [];
+
   React.useEffect(() => {
     async function achievement() {
       setaDataRC1(await achievementByQuest("IDD3718_enduser", "RC1"));
     }
     achievement();
   }, []);
+
   for (let i = 0; i < dataRC1.length; i++) {
     let getIndex = FindObject(target, "code", dataRC1[i].code);
     if (getIndex > -1) {
